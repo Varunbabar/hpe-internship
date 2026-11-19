@@ -1,0 +1,13 @@
+@'
+target/
+.classpath
+.project
+.settings/
+README-local.md
+
+.env
+.env.*
+!.env.example
+application-local.properties
+application-secret.properties
+'@ | Set-Content .gitignore
